@@ -6,3 +6,8 @@ data(iris)
 
 # probably want to ignore non-numeric data for the next part
 iris_num <- select_if(iris, is.numeric)
+
+summary(iris_num)
+
+cor(iris_num)
+pairs(iris_num)
