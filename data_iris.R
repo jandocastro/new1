@@ -11,3 +11,7 @@ summary(iris_num)
 
 cor(iris_num)
 pairs(iris_num)
+
+# New analysis that I want on GitHub
+lm1 <- lm(iris$Sepal.Length ~ iris$Sepal.Width, data = iris)
+summary(lm1)
