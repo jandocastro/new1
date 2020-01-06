@@ -15,3 +15,6 @@ pairs(iris_num)
 # New analysis that I want on GitHub
 lm1 <- lm(iris$Sepal.Length ~ iris$Sepal.Width, data = iris)
 summary(lm1)
+
+lm2 <- lm(Sepal.Length ~ Sepal.Width, data = iris)
+summary(lm2)
